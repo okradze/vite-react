@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  height: 80px;
+  background: #3e475a;
+  color: white;
+  gap: 2rem;
+}
+
+.link {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.activeLink {
+  color: #f5a623;
+}
