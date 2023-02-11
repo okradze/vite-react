@@ -66,14 +66,15 @@ yarn # or yarn install
 
 <p>In this project, you can run the following scripts:</p>
 
-| Script             | Description                                          |
-| ------------------ | ---------------------------------------------------- |
-| yarn start         | Runs the app in the development mode.                |
-| yarn build         | Builds the app for production to the `build` folder. |
-| yarn test          | Run and watch unit tests.                            |
-| yarn test:coverage | Get unit test coverage.                              |
-| yarn test:ci       | Run unit tests once.                                 |
-| yarn test:ui       | Run unit test in UI.                                 |
+| Script             | Description                                         |
+| ------------------ | --------------------------------------------------- |
+| yarn dev           | Runs the app in the development mode.               |
+| yarn build         | Builds the app for production to the `dist` folder. |
+| yarn preview       | Serves the production app locally after build.      |
+| yarn test          | Runs and watches unit tests.                        |
+| yarn test:coverage | Gets unit test coverage.                            |
+| yarn test:ci       | Runs unit tests once.                               |
+| yarn test:ui       | Runs unit test in UI.                               |
 
 ## Committing
 
