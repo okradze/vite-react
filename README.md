@@ -26,19 +26,56 @@ A modern React + TypeScript starter with pre-configured ESLint, Prettier, Git ho
 
 ## IDE
 
-We highly encourage you to use [Visual Studio Code](https://code.visualstudio.com/)
+We encourage you to use [Visual Studio Code](https://code.visualstudio.com/)
 
-Make sure you have those plugins installed:
+Please install the following plugins:
 
 - Code Spell Checker
 - ESLint
 - EditorConfig
 - Prettier
 
-Recommended plugins:
+Optional plugins:
 
 - GitLens
 - TODO Highlight
+
+## React Folder Structure
+
+```
+components # Reusable components used in multiple pages.
+└── Button # One example of component
+    ├── __tests__ # All test files related to Button
+    │   └── Button.test.tsx # Component Unit Test
+    ├── Button.module.scss # Button styles
+    ├── Button.tsx # Component file
+    └── index.tsx # Exports component outside
+pages
+└── Counter # One example of page
+    ├── __tests__ # All test files related to Counter page
+    │   └── Counter.test.tsx # Component Unit Test
+    ├── hooks # Hooks related only to Counter page
+    │   ├── __tests__
+    │   │   └── useCounter.test.ts
+    │   └── useCounter.ts
+    ├── components # You could have components related only to Counter page.
+    ├── utils # You could have utils related only to Counter page.
+    ├── Counter.module.scss
+    ├── Counter.tsx
+    └── index.tsx # Exports page component
+routes # All the routes
+hooks # You may have hooks folder used in multiple pages or components in top level directory
+├── __tests__
+│   ├── useSomeHook.test.ts
+│   └── useOtherHook.test.ts
+├── useSomeHook
+└── useOtherHook
+```
+
+Idea is to have related files in one place.
+
+By this every component or page has its own folder with its own tests and styles.
+Every page has its own components, hooks, utils.
 
 ## Node Version
 
