@@ -62,7 +62,7 @@ npm install -g yarn
 yarn # or yarn install
 ```
 
-## Available commands
+## Scripts
 
 <p>In this project, you can run the following scripts:</p>
 
@@ -70,9 +70,10 @@ yarn # or yarn install
 | ------------------ | ---------------------------------------------------- |
 | yarn start         | Runs the app in the development mode.                |
 | yarn build         | Builds the app for production to the `build` folder. |
-| yarn test          | Run the unit tests.                                  |
+| yarn test          | Run and watch unit tests.                            |
 | yarn test:coverage | Get unit test coverage.                              |
-| yarn test:ci       | Run unit test in `CI` env.                           |
+| yarn test:ci       | Run unit tests once.                                 |
+| yarn test:ui       | Run unit test in UI.                                 |
 
 ## Committing
 
