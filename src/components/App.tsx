@@ -1,9 +1,9 @@
-import { ReactElement } from "react";
+import { ReactElement } from 'react'
 
-import Routes from "@/routes";
+import Routes from '@/routes'
 
 function App(): ReactElement {
-  return <Routes />;
+  return <Routes />
 }
 
-export default App;
+export default App

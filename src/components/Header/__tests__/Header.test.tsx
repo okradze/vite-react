@@ -12,5 +12,6 @@ describe('Header', () => {
     )
     expect(screen.getByText('Home')).toBeInTheDocument()
     expect(screen.getByText('About')).toBeInTheDocument()
+    expect(screen.getByText('Counter')).toBeInTheDocument()
   })
 })
