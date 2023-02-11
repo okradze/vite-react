@@ -1,2 +1,4 @@
 node_modules
 postcss.config.cjs
+dist
+coverage
