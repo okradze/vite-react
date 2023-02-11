@@ -8,7 +8,6 @@ A modern React + TypeScript starter with pre-configured ESLint, Prettier, Git ho
 ![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
 ![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 ![Commitlint](https://img.shields.io/badge/commitlint-000000?style=for-the-badge&logo=commitlint&logoColor=white)
-![Jest](https://img.shields.io/badge/jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![Testing Library](https://img.shields.io/badge/testing%20library-E33332?style=for-the-badge&logo=testing-library&logoColor=white)
 
 ## Features
@@ -16,12 +15,13 @@ A modern React + TypeScript starter with pre-configured ESLint, Prettier, Git ho
 - ⚡️ [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
 - ⚛️ [React 18](https://reactjs.org/) - A JavaScript library for building user interfaces
 - 💎 [TypeScript](https://www.typescriptlang.org/) - Why not?!
-- 🔨 [ESLint](https://eslint.org/) - Pluggable JavaScript linter
-- 🌀 [Prettier](https://prettier.io) - Opinionated Code Formatter
+- 🔨 [ESLint](https://eslint.org/) - JavaScript linter
+- 🌀 [Prettier](https://prettier.io) - Code Formatter
 - 🐺 [Husky](https://github.com/typicode/husky) - Native Git hooks
-- 📑 [Commitlint](https://commitlint.js.org/) - Linting your commits based on commit convention
 - 🐺 [Lint Staged](https://github.com/okonet/lint-staged) - Run Linters On Staged Files
-- ⚙️ [Jest](https://jestjs.io/) - Testing Framework
+- 📑 [Commitlint](https://commitlint.js.org/) - Linting your commits based on commit convention
+- ⚙️ [Vitest](https://vitest.dev/) - Unit Testing Framework
+- ⚙️ [Testing Library](https://testing-library.com/) - Unit Testing Framework
 - ⌨️ Alias Imports
 
 ## IDE
