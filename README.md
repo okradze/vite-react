@@ -1,6 +1,6 @@
-# React Boilerplate ❤️‍🔥
+# React + TypeScript Starter
 
-A modern React + TypeScript template with pre-configured ESLint, Prettier, Git hooks with Husky, Unit Testing with Jest and Testing Library out of the box 📦
+A modern React + TypeScript starter with pre-configured ESLint, Prettier, Git hooks with Husky, Unit Testing with Jest and Testing Library out of the box 📦
 
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
