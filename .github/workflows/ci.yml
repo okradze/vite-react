@@ -1,0 +1,37 @@
+name: CI
+on: [push]
+
+jobs:
+  commitlint:
+    name: Commitlint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Lint Commit Messages
+        uses: wagoid/commitlint-github-action@v5
+
+  build:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: 🔧 Set Node.js 18.14.0
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.14.0
+
+      - name: 📦 Install dependencies
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install # will run `yarn install` command
+      - name: 🔍 Run linter
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: lint # will run `yarn lint` command
+      - name: 🔍 Run Unit Tests
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: test:ci # will run `yarn test:ci` command
