@@ -9,6 +9,7 @@ A modern React + TypeScript starter with pre-configured ESLint, Prettier, Git ho
 ![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 ![Commitlint](https://img.shields.io/badge/commitlint-000000?style=for-the-badge&logo=commitlint&logoColor=white)
 ![Testing Library](https://img.shields.io/badge/testing%20library-E33332?style=for-the-badge&logo=testing-library&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ## Features
 
@@ -22,6 +23,7 @@ A modern React + TypeScript starter with pre-configured ESLint, Prettier, Git ho
 - 📑 [Commitlint](https://commitlint.js.org/) - Linting your commits based on commit convention
 - ⚙️ [Vitest](https://vitest.dev/) - Unit Testing Framework
 - ⚙️ [Testing Library](https://testing-library.com/) - Unit Testing Framework
+- 🔬 [GitHub Actions](https://docs.github.com/en/actions) - CI with GitHub Actions
 - ⌨️ Alias Imports
 
 ## IDE
