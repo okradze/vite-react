@@ -1,6 +1,6 @@
 # React + TypeScript Starter
 
-A modern React + TypeScript starter with pre-configured ESLint, Prettier, Git hooks with Husky, Unit Testing with Jest and Testing Library out of the box 📦
+A modern React + TypeScript + Vite starter with pre-configured ESLint, Prettier, Git hooks, Commitlint, React Testing Library, Vitest and GitHub Actions out of the box 📦
 
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -110,6 +110,7 @@ yarn # or yarn install
 | yarn dev           | Runs the app in the development mode.               |
 | yarn build         | Builds the app for production to the `dist` folder. |
 | yarn preview       | Serves the production app locally after build.      |
+| yarn lint          | Lints the project                                   |
 | yarn test          | Runs and watches unit tests.                        |
 | yarn test:coverage | Gets unit test coverage.                            |
 | yarn test:ci       | Runs unit tests once.                               |
@@ -122,7 +123,7 @@ We use [Commitlint](https://commitlint.js.org/) to lint our commit messages. Thi
 Example of a good commit message:
 
 ```bash
-git commit -m "feat: add new feature"
+git commit -m "feat: add new button component"
 ```
 
 Commit Types:
