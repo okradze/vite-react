@@ -22,7 +22,7 @@ A modern React + TypeScript starter with pre-configured ESLint, Prettier, Git ho
 - 🐺 [Lint Staged](https://github.com/okonet/lint-staged) - Run Linters On Staged Files
 - 📑 [Commitlint](https://commitlint.js.org/) - Linting your commits based on commit convention
 - ⚙️ [Vitest](https://vitest.dev/) - Unit Testing Framework
-- ⚙️ [Testing Library](https://testing-library.com/) - Unit Testing Framework
+- ⚙️ [Testing Library](https://testing-library.com/) - Test UI components in a user-centric way
 - 🔬 [GitHub Actions](https://docs.github.com/en/actions) - CI with GitHub Actions
 - ⌨️ Alias Imports
 
